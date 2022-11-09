@@ -1,0 +1,10 @@
+
+.btn-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-submit{
+    height:30px; 
+    width:80px;
+}

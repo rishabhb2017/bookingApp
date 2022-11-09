@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should surname text box default be empty 1`] = `
+<DocumentFragment>
+  <form>
+    <table>
+      <tbody>
+        <tr>
+          <th />
+          <td>
+            <strong>
+              <span>
+                CHECK ROOM
+              </span>
+            </strong>
+          </td>
+        </tr>
+        <tr>
+          <td
+            colspan="2"
+          >
+            <hr />
+          </td>
+        </tr>
+        <tr />
+        <tr>
+          <td>
+            <label
+              for="room"
+            >
+              Room
+            </label>
+          </td>
+          <td>
+            <select
+              id="room"
+              name="room"
+            >
+              <option
+                disabled=""
+                value="0"
+              >
+                Select Room
+              </option>
+              <option
+                value="101"
+              >
+                101
+              </option>
+              <option
+                value="102"
+              >
+                102
+              </option>
+              <option
+                value="201"
+              >
+                201
+              </option>
+              <option
+                value="203"
+              >
+                203
+              </option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label
+              for="dateCal"
+            >
+              Date
+            </label>
+          </td>
+          <td>
+            <input
+              id="dateCal"
+              name="dateCal"
+              required=""
+              type="date"
+              value=""
+            />
+          </td>
+        </tr>
+        <tr>
+          <td />
+          <td />
+        </tr>
+        <tr>
+          <td />
+          <td
+            class="btn-section"
+          >
+            <button
+              class="btn-submit"
+              name="Check"
+              type="submit"
+            >
+              Check
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <form>
+    <table>
+      <tbody>
+        <tr>
+          <th />
+          <td>
+            <strong>
+              <span>
+                CHECK ROOM
+              </span>
+            </strong>
+          </td>
+        </tr>
+        <tr>
+          <td
+            colspan="2"
+          >
+            <hr />
+          </td>
+        </tr>
+        <tr />
+        <tr>
+          <td>
+            <label
+              for="room"
+            >
+              Room
+            </label>
+          </td>
+          <td>
+            <select
+              id="room"
+              name="room"
+            >
+              <option
+                disabled=""
+                value="0"
+              >
+                Select Room
+              </option>
+              <option
+                value="101"
+              >
+                101
+              </option>
+              <option
+                value="102"
+              >
+                102
+              </option>
+              <option
+                value="201"
+              >
+                201
+              </option>
+              <option
+                value="203"
+              >
+                203
+              </option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label
+              for="dateCal"
+            >
+              Date
+            </label>
+          </td>
+          <td>
+            <input
+              id="dateCal"
+              name="dateCal"
+              required=""
+              type="date"
+              value=""
+            />
+          </td>
+        </tr>
+        <tr>
+          <td />
+          <td />
+        </tr>
+        <tr>
+          <td />
+          <td
+            class="btn-section"
+          >
+            <button
+              class="btn-submit"
+              name="Check"
+              type="submit"
+            >
+              Check
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</DocumentFragment>
+`;

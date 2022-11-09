@@ -1,14 +1,16 @@
 import * as actionType from "../actions/actionTypes";
 
 const initialState = {
-    post: null
+    bookings: null
 };
+
 export default function (state = initialState, action) {
     switch (action.type) {
-        case actionType.UPDATED_POST: {
+        case actionType.ADDED_BOOKINGS: {
+            debugger;
             return {
                 ...state,
-                post: action.payload
+                bookings: action.payload
             };
         }
         default: {

@@ -1,15 +1,15 @@
 import * as actionType from "../actions/actionTypes";
 
 const initialState = {
-  posts: []
+  bookings: []
 };
 
 export default function (state = initialState, action) {
   switch (action.type) {
-    case actionType.GOT_POSTS: {
+    case actionType.GOT_BOOKINGS: {
       return {
         ...state,
-        posts: action.payload,
+        bookings: action.payload,
       };
     }
     default: {

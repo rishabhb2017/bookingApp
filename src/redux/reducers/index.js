@@ -1,13 +1,9 @@
 import { combineReducers } from "redux";
 
-import addPost from "./addPost";
-import getPosts from "./getPosts";
-import updatePost from "./updatePost";
-import deletePost from "./deletePost";
+import addBookings from "./addBooking";
+import getBookings from "./gotBookings";
 
 export default combineReducers({
-    addPost,
-    getPosts,
-    updatePost,
-    deletePost
+    addBookings,
+    getBookings
 });
