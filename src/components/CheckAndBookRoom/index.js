@@ -26,13 +26,11 @@ const CheckAndBookRoom = ({isBooking}) =>{
     const [state, setState]=useState({...initialState});
 
     useEffect(()=>{
-        debugger;
         dispatch({type: actionType.GET_BOOKINGS});
     },[]);
     
     useEffect(()=>{
         if(isBookingConfirmed && +isBookingConfirmed.room === +state.room){
-            debugger;
             alert(`Room No. ${isBookingConfirmed.room} Booked Succefully For ${isBookingConfirmed.surname} at ${isBookingConfirmed.dateCal}`);
             setState({...initialState});
             isBookingConfirmed = null;
@@ -40,7 +38,6 @@ const CheckAndBookRoom = ({isBooking}) =>{
     },[isBookingConfirmed]);
 
     function compareDates(dt1, dt2){
-     debugger;
      if(dt1.getDate() === dt2.getDate() && dt1.getMonth() === dt2.getMonth() && dt1.getFullYear() === dt2.getFullYear()){
          return true;
      }
@@ -48,7 +45,6 @@ const CheckAndBookRoom = ({isBooking}) =>{
     }
 
     const onSubmitHandler = (event) =>{
-        debugger;
         event.preventDefault();
         const {surname, room, dateCal } = state;
         if(isBooking){
@@ -65,7 +61,6 @@ const CheckAndBookRoom = ({isBooking}) =>{
     };
 
     const onChangeHandler = (event) =>{
-        debugger;
         let name = event.target.name;
         let value = event.target.value;
         setState({...state, [name]: value});

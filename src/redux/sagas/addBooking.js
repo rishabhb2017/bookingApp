@@ -7,11 +7,8 @@ export default function* addBookingsSaga() {
 }
 
 function* addBookings(action) {
-    debugger;
-    console.log(action);
     try {
         const postResponse = yield call(roomBookingPostApi.add, action.payload);
-        debugger;
         yield put({ type: actionType.ADDED_BOOKINGS, payload: postResponse });
     } catch (err) {
         console.log(err);

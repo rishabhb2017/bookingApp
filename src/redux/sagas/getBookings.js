@@ -7,7 +7,6 @@ export default function* getBookingsSaga() {
 }
 
 function* fetchBookings() {
-    debugger;
     try {
         const getResponse = yield call(BookingsGetApi.getAll);
         yield put({ type: actionType.GOT_BOOKINGS, payload: getResponse });
